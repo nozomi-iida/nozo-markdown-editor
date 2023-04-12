@@ -1,10 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import './index.css'
+import { FC } from "react";
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+type HelloWorldProps = {
+  title: string;
+};
+
+export const HelloWorld: FC<HelloWorldProps> = ({ title }) => {
+  return (
+    <div>
+      <h1>HelloWorld</h1>
+      <p>{title}</p>
+    </div>
+  );
+};
