@@ -1,6 +1,5 @@
 {
   "name": "nozo-markdown-editor",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "main": "./dist/nozo-markdown-editor.umd.cjs",
