@@ -1,10 +1,10 @@
 import { FC } from "react";
 
-type HelloWorldProps = {
+type NozoMarkdownEditorProps = {
   title: string;
 };
 
-export const HelloWorld: FC<HelloWorldProps> = ({ title }) => {
+export const NozoMarkdownEditor: FC<NozoMarkdownEditorProps> = ({ title }) => {
   return (
     <div>
       <h1>HelloWorld</h1>
